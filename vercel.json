@@ -2,6 +2,9 @@
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.7.1"
+        },
+        "api/myProfile.php": {
+            "runtime": "vercel-php@0.7.1"
         }
     },
     "routes":[
@@ -32,6 +35,10 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/myProfile.php"
         }
     ]
 }
