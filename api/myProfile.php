@@ -1,4 +1,4 @@
 
 <?php
 
-require __DIR__ . '/../public/pages/myProfile.php';
+require __DIR__ . '/../public/myProfile.php';
