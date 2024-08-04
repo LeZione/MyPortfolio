@@ -12,7 +12,7 @@
 
         <script>
             function redirectToProfile(){
-                window.location.href = "http://localhost/MyPortfolio/pages/myProfile.php"
+                window.location.href = "../public/pages/myProfile.php"
             }
 
             window.onload = function() {
