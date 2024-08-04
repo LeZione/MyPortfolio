@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/public/pages/layouts/myProfile.css">
+        <link rel="stylesheet" href="/public/pages/myProfile.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Farro&family=Gotu&family=Licorice&family=Livvic:wght@100&family=Lobster&family=M+PLUS+Code+Latin&family=Source+Code+Pro&display=swap" rel="stylesheet">
