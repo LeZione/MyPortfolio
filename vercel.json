@@ -26,6 +26,10 @@
             "dest": "/public/assets/img/$1"
         },
         {
+            "src": "/myProfile",
+            "dest":"/api/index.php"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
