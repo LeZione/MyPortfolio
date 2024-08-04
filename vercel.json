@@ -11,11 +11,11 @@
         },
         {
             "src": "/layout.css",
-            "dest": "/public/css/layout.css"
+            "dest": "/public/layout.css"
         },
         {
             "src": "/style.css",
-            "dest": "/public/css/style.css"
+            "dest": "/public/style.css"
         },
         {
             "src": "/public/assets/icons/(.*).png",
