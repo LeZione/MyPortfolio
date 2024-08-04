@@ -14,8 +14,8 @@
             "dest": "/public/layout.css"
         },
         {
-            "src": "/myProfile.css",
-            "dest": "/public/pages/myProfile.css"
+            "src": "/styles.css",
+            "dest": "/public/pages/styles.css"
         },
         {
             "src": "/public/assets/icons/(.*).png",
