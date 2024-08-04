@@ -10,15 +10,11 @@
             "dest": "/api/index.php"
         },
         {
-            "src": "/api/myProfile.php",
-            "dest": "/api/myProfile.php"
-        },
-        {
             "src": "/layout.css",
             "dest": "/public/layout.css"
         },
         {
-            "src": "/public/pages/myProfile.css",
+            "src": "/myProfile.css",
             "dest": "/public/pages/myProfile.css"
         },
         {
@@ -32,10 +28,6 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/myProfile.php"
         }
     ]
 }
