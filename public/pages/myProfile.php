@@ -29,7 +29,7 @@
             <div class="mainContent">
                 <div class="myIntroduction">
                     <div class="myPicture">
-                        <img src = "/Pradoo.png"> 
+                        <img src = "/assets/img/Pradoo.png"> 
                     </div>
                     <div class="introSentence">
                         <div class ="a">Hi, I am Keith!</div>
