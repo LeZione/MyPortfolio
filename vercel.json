@@ -18,11 +18,11 @@
             "dest": "/public/style.css"
         },
         {
-            "src": "/public/assets/icons/(.*).png",
+            "src": "assets/icons/(.*).png",
             "dest": "/public/assets/icons/$1"
         },
         {
-            "src": "/(.*).png",
+            "src": "/public/assets/img/(.*).png",
             "dest": "/public/assets/img/$1"
         },
         {
