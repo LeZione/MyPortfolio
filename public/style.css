@@ -93,7 +93,7 @@ body{
 .myPicture img{
     --border: 20px;
     --gap: 12px;
-    --color: #1ea70cec;
+    --color: #1ea70c;
 
     width: 80%;
     aspect-ratio: 1;
