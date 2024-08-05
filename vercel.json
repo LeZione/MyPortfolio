@@ -22,7 +22,7 @@
             "dest": "/public/assets/icons/$1"
         },
         {
-            "src": "/public/assets/img/(.*).png",
+            "src": "/(.*).png",
             "dest": "/public/assets/img/$1"
         },
         {
