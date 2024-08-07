@@ -57,19 +57,19 @@ body{
 .mainContent{
     width: 100%;
     height: 720px;
-    background-color: white;
+    background-color:white;
     /*margin-left: 1%;
     margin-top: 10px;
     margin-bottom: 10px;*/
 }
 
 .myIntroduction{
-    background-color: rgb(32, 30, 30);
+    background-color: black;
     margin-top: 0;
+    height: 415px;
 }
 
 .myIntroduction div{
-    background-color: black;
     float: left;
     height: 100%;
 }
@@ -95,7 +95,7 @@ body{
     --gap: 12px;
     --color: #1ea70c;
 
-    width: 80%;
+    width: 85%;
     aspect-ratio: 1;
     box-sizing: border-box;
     border-radius:50%;
@@ -132,32 +132,51 @@ body{
 }
 
 .introSentence{
-    top:50%;
+    /*top:50%;
     left: 50%;
-    transform: translate(0,100%);
+    transform: translate(0,100%);*/
     width: 60%;
     height: 100%;
     align-items:last baseline;
 }
 
-.introSentence div{
-    margin: 0;
+.introSentence .myNameAndCourse{
+    height: 200px;
+    margin: 140px 0 0 0;
     padding: 0;
-    text-align: center;
+    
+}
+.introSentence div{
+    /*text-align: center;*/
     font-family: "Lato", sans-serif;
     width: 100%;
-    height: 33.33%;
 }
 
 .introSentence .a{
-    margin:0 0 20px 0;
-    padding: 0;
-    top: 50%;
+    margin:0 0 5px 0;
+    padding: 0 0 10px 0;
+    height: 100px;
+    /*top: 50%;
     left: 50%;
-    transform: translate(0,10%);
-    font-size: 50px;
+    transform: translate(0,10%);*/
+    font-size: 70px;
     font-weight: 900;
     font-style: normal;
+    border-bottom: 5px solid #1ea70c;
+}
+
+.introSentence .b{
+    margin:0 0 5px 0;
+    padding: 0;
+    height: 22px;
+    font-size: 22px;
+}
+
+.introSentence .c{
+    margin:0;
+    padding: 0;
+    height: 22px;
+    font-size: 22px;
 }
 
 .footer{
