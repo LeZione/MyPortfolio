@@ -28,7 +28,7 @@
             <div class="mainContent">
                 <div class="myIntroduction">
                     <div class="myPicture">
-                        <img src = "img/Pradoo.png"> 
+                        <img src = "/assets/img/Pradoo.png">
                     </div>
                     <div class="introSentence">
                         <div class = "myNameAndCourse">
