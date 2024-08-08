@@ -12,13 +12,6 @@
         <link rel="stylesheet" href="reset.css">
     </head>
     <body>
-        <div class="sideNav">
-            <div class="menu">
-                <a href="#">Link1</a>
-                <a href="#">Link2</a>
-                <a href="#">Link3</a>
-            </div>
-        </div>
 
         <div class="mainSection">
             <div class="header">
@@ -36,6 +29,17 @@
                             <div class = "b">Bachelor of Engineering Technology</div>
                             <div class = "c">major in Computer Engineering Technology</div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="stickyNav">
+                    <div class="menu">
+                        <a href="#">About Me</a>
+                        <a href="#">Skills</a>
+                        <a href="#">Experience</a>
+                        <a href="#">Awards and Achievements</a>
+                        <a href="#">Training and Seminars</a>
+                        <a href="#">Contact Me</a>
                     </div>
                 </div>
             </div>
