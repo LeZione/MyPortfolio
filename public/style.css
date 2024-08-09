@@ -9,39 +9,100 @@ body{
     font-family: 'Source Code Pro', monospace;
 }
 
-.stickyNav{
-    height: 40px;
+.stickyNav {
+    height: 75px;
     width: 100%;
+    padding: 15px 0;
     position: sticky;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(45, 47, 49);
+    background-color: black/*rgb(45, 47, 49)*/;
     overflow-x: hidden;
 }   
 
-.menu{
+.menu {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     height: 100%;
-    /*top: 60%;
-    left: 50%;
-    transform: translate(0,75%);*/
 }
 
-.menu a{
-    float: left;
-    padding:0 15px 0 15px;
+.menu a {
+    position: relative;
+    border-radius: 5px;
+    margin:0 15px;
+    transition: width 0.3s ease-in-out, border-bottom 0.3s ease-in-out ;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50px; /* Initial width to fit the icon */
+    /*border: 2px solid #444;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     color: white;
     text-decoration: none;
-    display: block;
 }
 
-.menu a:hover{
-    background-color: #ddd;
-    color: black;
+.menu a:hover {
+    width: 330px; /* Adjust width for longer text */
+    /*background-color: #555;*/
+    border-bottom: 4px solid #1ea70c;
+}
+
+.menu a span {
+    font-size: 20px;
+    display: none;
+    opacity: 0;
+    margin-left: 10px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateX(-20px); /* Slide from the left */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.menu a:hover span {
+    display: flex;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.menu a::before {
+    font-size: 30px; /* Adjust icon size */
+    display: block; /* Ensure icon is visible */
+    line-height: 60px; /* Align icon with the text */
+}
+
+/* Example icons using FontAwesome */
+.icon-about::before {
+    content: "\f007"; /* Example: User icon for 'About Me' */
+    font-family: "FontAwesome";
+}
+
+.icon-skills::before {
+    content: "\f0ad"; /* Example: Wrench icon for 'Skills' */
+    font-family: "FontAwesome";
+}
+
+.icon-experience::before {
+    content: "\f19d"; /* Example: Briefcase icon for 'Experience' */
+    font-family: "FontAwesome";
+}
+
+.icon-awards::before {
+    content: "\f091"; /* Example: Trophy icon for 'Awards and Achievements' */
+    font-family: "FontAwesome";
+}
+
+.icon-training::before {
+    content: "\f0f2"; /* Example: Graduation cap icon for 'Training and Seminars' */
+    font-family: "FontAwesome";
+}
+
+.icon-contact::before {
+    content: "\f0e0"; /* Example: Envelope icon for 'Contact Me' */
+    font-family: "FontAwesome";
 }
 
 .mainSection{
